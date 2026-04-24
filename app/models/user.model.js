@@ -8,19 +8,17 @@ const userSchema = new mongoose.Schema(
       type: String,
       unique: true,
     },
-
-    password: { type: String },
-
+    password: { 
+      type: String 
+    },
     profileImage: {
       type: String,
       default: null,
     },
-
     refreshToken: {
       type: String,
       default: null,
     },
-
     role: {
       type: String,
       enum: ["user", "admin"],
