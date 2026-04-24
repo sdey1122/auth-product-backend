@@ -13,7 +13,7 @@ class ProductController {
     this.forceDelete = this.forceDelete.bind(this);
   }
 
-  // COMMON FUNCTION → DELETE FILE
+  // COMMON FUNCTION
   deleteFile(filePath) {
     if (!filePath) return;
 
